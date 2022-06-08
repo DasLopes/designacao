@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            align-items: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        div{
+            width: 350px;
+        }
+        .titulo{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .nota{
+            text-align: justify;
+        }
+        input{
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <h4 class="titulo">DESIGNAÇÃO PARA A REUNIÇÃO NOSSA VIDA E MINISTÉRIO CRITÃO</h4>
+    
+<p> 
+    <label for=”nome”> <strong>Nome:</strong></label><br>
+    <input type=”text” id=”nome” name=”nome”>
+</p>
+
+<p><label for=”nome2”> <strong>Ajudante:</strong></label><br>
+    <input type=”text” id=”nome2” name=”nome2”>
+</p>
+
+<p>
+   <form action="#" method="get">
+        <div>
+          <label for="idesignacao"> <strong>Designação:</strong></label><br>
+          <input list="designacao" id="idesignacao" name="designacao">
+      <datalist id="designacao">
+          <option value="Leitura da Bíblia">
+          <option value="Primeira conversa">
+          <option value="Revisita">
+          <option value="Estudo Bíblico">
+          <option value="Discurso">
+      </datalist>
+          </div>
+      </form> 
+</p>
+    
+<p>
+        <div> 
+        <label for="start"> <strong>Data:</strong></label>
+        <input type="date" id="start" name="trip-start"
+             value=""
+             min="2022-01-01" max="2022-12-31">
+        </div>
+</p>
+      <p class="nota"><strong>Observação para o estudante:</strong> A lição da brochura <em>Melhore</em> e a fonte de matéria para a sua designação estão na <em>Apostila da Reunião Vida e Ministério.</em> Estude a lição da brochura para saber como aplicar o ponto que você vai considerar.</p>
+      </body>
+    </div>
+</body>
+</html>
