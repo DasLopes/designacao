@@ -18,10 +18,11 @@
             text-align: center;
             margin-bottom: 30px;
         }
-        .nota{
+        .nota{            
             text-align: justify;
         }
         input{
+            margin: 2px 2px;
             width: 100%;
         }
         
@@ -55,11 +56,11 @@
                     </datalist>
                 </div>
             </form> 
-        </p>
-    
+        </p>    
         <p>
             <div> 
-                <label for="start"> <strong>Data:</strong></label>
+                <label for="start"> <strong>Semana:</strong></label>
+                <input type="date" id="start" name="trip-start" value="" min="2023-01-01" max="2023-12-31">
                 <input type="date" id="start" name="trip-start" value="" min="2023-01-01" max="2023-12-31">
             </div>
         </p>
